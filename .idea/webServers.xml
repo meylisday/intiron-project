@@ -2,12 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="5ce9f84e-ab2c-41b7-9121-2bbe10862d19" name="by115.atservers.net" url="http://by115.atservers.net">
-        <fileTransfer host="by115.atservers.net" port="21" rootFolder="/www/intiron.by">
+      <webServer id="228a8167-f4a8-41fc-8315-0bcc470b34c8" name="by115.atservers.net" url="http://by115.atservers.net">
+        <fileTransfer host="by115.atservers.net" port="22" rootFolder="/home/user2078064/www/intiron.by" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>

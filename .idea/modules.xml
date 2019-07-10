@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/intiron.iml" filepath="$PROJECT_DIR$/.idea/intiron.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/initron.iml" filepath="$PROJECT_DIR$/.idea/initron.iml" />
     </modules>
   </component>
 </project>
