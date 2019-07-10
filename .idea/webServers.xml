@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5ce9f84e-ab2c-41b7-9121-2bbe10862d19" name="by115.atservers.net" url="http://by115.atservers.net">
+        <fileTransfer host="by115.atservers.net" port="21" rootFolder="/www/intiron.by">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
