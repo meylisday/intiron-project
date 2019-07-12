@@ -65,7 +65,6 @@
                 <div class="about__text">
                     <p class="about__text_title">О нашей компании</p>
                     <p class="about__text_desc">Главным направлением деятельности предприятия является осуществление токарных и фрезерных работ как на ручных станках,так и на станках с ЧПУ, лазерная резка,зубофрезерные работы,шлифовка плоская и круглая, эрозионная обработка,термообработка и различные гальванические покрытия.изготовление  и разработка деталей приборов, различного оборудования по заказу. </p>
-                    <a href="#" class="about__text_link">узнать больше</a>
                 </div>
                 <ul class="about__list">
                     <li class="about__item">
@@ -237,7 +236,13 @@
                 <div class="wrapper">
                     <p class="faq__title">Остались вопросы?</p>
                     <p class="faq__title_sub">Закажите звонок нашего консультанта!</p>
-                    <form action="" id="send-message" class="faq__form" method="GET" autocomplete="off">
+                    @if(Session::has('success'))
+                        <div class="alert alert-success">
+                            {{ Session::get('success') }}
+                        </div>
+                    @endif
+                    <form action="{{ url('/contact') }}" id="send-message" class="faq__form" method="POST" autocomplete="off">
+                        {{ csrf_field() }}
                         <label for="name" class="faq__form_input">
                             <input type="text" name="name" id="name">
                             <span>Ваше имя</span>
@@ -250,11 +255,11 @@
                             <input type="text" name="phone" id="phone">
                             <span>Ваш телефон</span>
                         </label>
-                        <label for="message" class="faq__form_message">
-                            <input type="text" name="message" id="message">
+                        <label for="body" class="faq__form_message">
+                            <input type="text" name="body" id="body">
                             <span>Ваше Сообщение</span>
                         </label>
-                        <button class="white">Заказать консультацию</button>
+                        <button type="submit" class="white">Заказать консультацию</button>
                     </form>
                 </div>
             </div>
