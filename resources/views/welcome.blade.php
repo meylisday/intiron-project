@@ -122,6 +122,7 @@
                                         <img class="img__lazy" data-src="/img/services-3.png" alt="services-3.png">
                                     </div>
                                     <p class="services__slide_title">Лазерная резка металла</p>
+                                    <br>
                                     <a href="#" class="white">ЗАКАЗАТЬ</a>
                                 </div>
                             </div>
@@ -131,6 +132,7 @@
                                         <img class="img__lazy" data-src="/img/services-4.png" alt="services-4.png">
                                     </div>
                                     <p class="services__slide_title">Эрозионная обработка</p>
+                                    <br>
                                     <a href="#" class="white">ЗАКАЗАТЬ</a>
                                 </div>
                             </div>
@@ -240,8 +242,12 @@
                         <div class="alert alert-success">
                             {{ Session::get('success') }}
                         </div>
+                        @elseif (Session::has('error'))
+                        <div class="alert alert-error">
+                            {{ Session::get('error') }}
+                        </div>
                     @endif
-                    <form action="{{ url('/contact') }}" id="send-message" class="faq__form" method="POST" autocomplete="off">
+                    <form action="{{ url('/contact') }}" id="send-message" class="faq__form" method="POST" autocomplete="off" enctype="multipart/form-data">
                         {{ csrf_field() }}
                         <label for="name" class="faq__form_input">
                             <input type="text" name="name" id="name">
@@ -258,6 +264,9 @@
                         <label for="body" class="faq__form_message">
                             <input type="text" name="body" id="body">
                             <span>Ваше Сообщение</span>
+                        </label>
+                        <label for="document" class="faq__form_message image">
+                            <input type="file" class="custom-file-input" name="document" id="document">
                         </label>
                         <button type="submit" class="white">Заказать консультацию</button>
                     </form>

@@ -16,17 +16,19 @@ class SendMail extends Mailable
     public $email;
     public $phone;
     public $body;
+    public $document;
 
     /**
      * Create a new message instance.
      *
      */
-    public function __construct($name, $email, $phone, $body)
+    public function __construct($name, $email, $phone, $body, $document)
     {
         $this->name = $name;
         $this->email = $email;
         $this->phone = $phone;
         $this->body = $body;
+        $this->document = $document;
     }
 
     /**

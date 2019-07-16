@@ -413,17 +413,18 @@ header .wrapper {
 }
 
 .about__text_title {
+    text-align: center;
     font-family: "OpenSans-Bold", sans-serif;
     font-size: 36px;
     line-height: 55px;
     color: var(--darkslategray-color);
     letter-spacing: 1.44px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .about__text_desc {
     max-width: 970px;
-
+    font-size: 16px;
     text-align: center;
     line-height: 28px;
     color: var(--darkslategray-color);
@@ -513,7 +514,7 @@ header .wrapper {
         -ms-flex-pack: center;
             justify-content: center;
 
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .about__item_title {
@@ -523,7 +524,7 @@ header .wrapper {
     line-height: 55px;
     letter-spacing: .45px;
     color: var(--darkslategray-color);
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .about__item_desc {
@@ -1277,9 +1278,20 @@ footer .wrapper__w100 {
         padding: 0;
         margin: 40px 20px;
     }
-    .about__text_desc{
-        font-size: 16px;
-    }
-
 }
 
+.faq__form_message.image{
+      margin-top: 10px;
+}
+.alert-success{
+    margin: 0 auto;
+    margin-top: 3em;
+    font-size: 18px;
+    background-color: #d3ffd4;
+    width: 80%;
+    text-align: center;
+    padding: 1em;
+}
+.alert-error{
+    background-color: #d3ffd4;
+}
