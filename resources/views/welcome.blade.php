@@ -53,7 +53,7 @@
         <div class="mainpage__top" id="main">
             <div class="mainpage__top_content">
                 <p>Профессиональный монтаж и изготовление металлоконструкций</p>
-                <a href="#" class="white">Заказать расчет</a>
+                <a href="#contacts" class="white">Заказать расчет</a>
             </div>
             <div class="mainpage__top_scroll">
                 <span class="mainpage__top_element"></span>
@@ -104,7 +104,7 @@
                                         <img class="img__lazy" data-src="/img/services-1.png" alt="services-1.png">
                                     </div>
                                     <p class="services__slide_title">Токарная обработка <br> на станках с ЧПУ</p>
-                                    <a href="#" class="white">ЗАКАЗАТЬ</a>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
                                 </div>
                             </div>
                             <div class="services__slide swiper-slide">
@@ -113,7 +113,7 @@
                                         <img class="img__lazy" data-src="/img/services-2.png" alt="services-2.png">
                                     </div>
                                     <p class="services__slide_title">Фрезерная обработка на станках с ЧПУ</p>
-                                    <a href="#" class="white">ЗАКАЗАТЬ</a>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
                                 </div>
                             </div>
                             <div class="services__slide swiper-slide">
@@ -123,7 +123,7 @@
                                     </div>
                                     <p class="services__slide_title">Лазерная резка металла</p>
                                     <br>
-                                    <a href="#" class="white">ЗАКАЗАТЬ</a>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
                                 </div>
                             </div>
                             <div class="services__slide swiper-slide">
@@ -133,7 +133,7 @@
                                     </div>
                                     <p class="services__slide_title">Эрозионная обработка</p>
                                     <br>
-                                    <a href="#" class="white">ЗАКАЗАТЬ</a>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
                                 </div>
                             </div>
                             <div class="services__slide swiper-slide">
@@ -142,7 +142,7 @@
                                         <img class="img__lazy" data-src="/img/services-6.jpg" alt="services-6.png">
                                     </div>
                                     <p class="services__slide_title">Штамповка, окраска, сварка деталей</p>
-                                    <a href="#" class="white">ЗАКАЗАТЬ</a>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +228,7 @@
 
                 </div>
 
-                <a href="#" class="white">ЗАКАЗАТЬ</a>
+                <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
 
             </div>
         </div>
