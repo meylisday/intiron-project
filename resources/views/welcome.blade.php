@@ -301,6 +301,7 @@
                     </div>
                     <div class="footer__contacts">
                         <a href="tel:+375296605552" class="footer__phone">+375 (29) 660-55-52</a>
+                        <a href="mailto:Intiron@mail.ru" class="footer__phone">Intiron@mail.ru</a>
                         <a href="#" class="footer__address">Партизанский проспект<br> 2/4, ком. 21, г. Минск</a>
                     </div>
                 </div>
