@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Metal</title>
+        <script src="https://kit.fontawesome.com/1da5f41c50.js"></script>
         <link rel="stylesheet" href="/css/icons.css">
         <link rel="stylesheet" href="/css/swiper.min.css">
         <link rel="stylesheet" href="/css/style.css?v=1.1">
@@ -54,7 +55,7 @@
             <div class="mainpage__top_content">
                 <p>Изготовление изделий из металлов и полимеров</p>
                 <span> От разработки проектной документации до изготовления партии изделий любой сложности</span>
-                <a href="#contacts" class="white">Заказать расчет</a>
+                <a href="#contacts" class="white--border">Заказать расчет</a>
             </div>
             <div class="mainpage__top_scroll">
                 <span class="mainpage__top_element"></span>
@@ -340,7 +341,7 @@
                     </div>
                     <div class="footer__contacts">
                         <a href="tel:+375296605552" class="footer__phone">+375 (29) 660-55-52</a>
-                        <a href="mailto:Intiron@mail.ru" class="footer__phone">Intiron@mail.ru</a>
+                        <a href="mailto:Intiron@mail.ru" class="footer__email">Intiron@mail.ru</a>
                         <a href="#" class="footer__address">Партизанский проспект<br> 2/4, ком. 21, г. Минск</a>
                     </div>
                 </div>
