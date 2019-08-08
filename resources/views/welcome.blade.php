@@ -52,7 +52,8 @@
 
         <div class="mainpage__top" id="main">
             <div class="mainpage__top_content">
-                <p>Профессиональный монтаж и изготовление металлоконструкций</p>
+                <p>Изготовление изделий из металлов и полимеров</p>
+                <span> От разработки проектной документации до изготовления партии изделий любой сложности</span>
                 <a href="#contacts" class="white">Заказать расчет</a>
             </div>
             <div class="mainpage__top_scroll">
@@ -95,6 +96,7 @@
         <div class="mainpage__services" id="services">
             <div class="wrapper wrapper__p40 ">
                 <p class="services__title">Наши услуги</p>
+                {{--      the first slider          --}}
                 <div class="services__slider">
                     <div class="services__slider_wrapper">
                         <div class="swiper-wrapper">
@@ -129,7 +131,7 @@
                             <div class="services__slide swiper-slide">
                                 <div class="services__slide_wrapper">
                                     <div class="services__slide_img">
-                                        <img class="img__lazy" data-src="/img/services-4.png" alt="services-4.png">
+                                        <img class="img__lazy" data-src="/img/services-4-1.jpg" alt="services-4-1.jpg">
                                     </div>
                                     <p class="services__slide_title">Эрозионная обработка</p>
                                     <br>
@@ -145,12 +147,49 @@
                                     <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
                                 </div>
                             </div>
+                            <div class="services__slide swiper-slide">
+                                <div class="services__slide_wrapper">
+                                    <div class="services__slide_img">
+                                        <img class="img__lazy" data-src="/img/services-4-2.jpg" alt="services-4-2.jpg">
+                                    </div>
+                                    <p class="services__slide_title">Гальванические <br> покрытия</p>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
+                                </div>
+                            </div>
+                            <div class="services__slide swiper-slide">
+                                <div class="services__slide_wrapper">
+                                    <div class="services__slide_img">
+                                        <img class="img__lazy" data-src="/img/services-4-3.jpg" alt="services-4-3.jpg">
+                                    </div>
+                                    <p class="services__slide_title">Термообработка <br> металла</p>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
+                                </div>
+                            </div>
+                            <div class="services__slide swiper-slide">
+                                <div class="services__slide_wrapper">
+                                    <div class="services__slide_img">
+                                        <img class="img__lazy" data-src="/img/services-4-4.jpg" alt="services-4-4.jpg">
+                                    </div>
+                                    <p class="services__slide_title">Шлифовка металла</p>
+                                    <br>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
+                                </div>
+                            </div>
+                            <div class="services__slide swiper-slide">
+                                <div class="services__slide_wrapper">
+                                    <div class="services__slide_img">
+                                        <img class="img__lazy" data-src="/img/services-4-5.png" alt="services-4-5.png">
+                                    </div>
+                                    <p class="services__slide_title">Зубофрезерная обработка</p>
+                                    <br>
+                                    <a href="#contacts" class="white">ЗАКАЗАТЬ</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="services__slider_left"><i class="icon-left-open-big"></i></div>
                     <div class="services__slider_right"><i class="icon-right-open-big"></i></div>
                 </div>
-
             </div>
         </div>
 

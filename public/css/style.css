@@ -286,6 +286,15 @@ header .wrapper {
     margin-bottom: 40px;
 }
 
+.mainpage__top_content span{
+    font-size: 24px;
+    font-family: "OpenSans", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--white-color);
+    margin-bottom: 40px;
+}
+
 .mainpage__top_scroll {
     height: 50px;
     width: 25px;
@@ -311,7 +320,7 @@ header .wrapper {
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
     -webkit-animation-duration: 1s;
-            animation-duration: 1s; 
+            animation-duration: 1s;
 }
 
 @-webkit-keyframes scrollAnimation {
@@ -558,7 +567,7 @@ header .wrapper {
 
 .services__slider {
     width: 100%;
-    padding: 0 40px;
+    padding: 0 40px 50px 40px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: relative;
@@ -851,7 +860,7 @@ header .wrapper {
 }
 
 .faq__form_message {
-    width: 100%; 
+    width: 100%;
     position: relative;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -1161,7 +1170,7 @@ footer .wrapper__w100 {
     .about__list {
         padding-top: 50px;
     }
-    
+
     .about__item_img {
         margin-bottom: 0;
     }
@@ -1181,7 +1190,7 @@ footer .wrapper__w100 {
     .about__item:not(:last-child) {
         margin-bottom: 30px;
     }
-    
+
     .about__item_desc {
         max-width: 300px;
     }
